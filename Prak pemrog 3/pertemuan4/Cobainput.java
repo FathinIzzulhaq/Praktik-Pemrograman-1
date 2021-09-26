@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 public class Cobainput {
     
     public static void main(String[] args) {
@@ -11,6 +13,6 @@ public class Cobainput {
 
         System.out.println("Nama anda adalah" + namaDepan);
         System.out.println("Umur anda adalah"+ umur);
-        
+
     } 
 }
