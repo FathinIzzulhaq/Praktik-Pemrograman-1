@@ -14,7 +14,7 @@ public class Mahasiswa {
 
     }
     public String getNim() {
-        return.this.nim;
+        return this.nim;
     }
 
     public void setNama(String nama) {
