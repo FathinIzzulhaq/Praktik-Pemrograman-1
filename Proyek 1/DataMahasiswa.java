@@ -2,11 +2,13 @@ public class DataMahasiswa extends DataPribadi {
     private String nim;
     private String nama;
     private double ipk;
+    private int semester;
 
-    public DataMahasiswa(String nim, String nama, double ipk) {
+    public DataMahasiswa(String nim, String nama, double ipk, int semester) {
         this.nim = nim;
         this.nama = nama;
         this.ipk = ipk;
+        this.semester = semester;
     }
 
     public void setNIM(String nim) {
@@ -33,6 +35,13 @@ public class DataMahasiswa extends DataPribadi {
         return this.ipk;
     }
 
+    public void setSemester(int semester) {
+        this.semester =  semester;
+    }
+
+    public int getSemester() {
+        return this.semester;
+    }
     public void getDetail() {
         System.out.println("Nama Lengkap : "+this.nama);
         System.out.println("NIM          : "+this.nim);
