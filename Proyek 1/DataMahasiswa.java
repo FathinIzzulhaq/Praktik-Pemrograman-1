@@ -50,4 +50,7 @@ public class DataMahasiswa extends DataPribadi {
         System.out.println("Berat Badan  : "+this.beratBadan+" kg");
     }
 
+    public void setNamaMahasiswa(String namaLengkap) {
+    }
+
 }
